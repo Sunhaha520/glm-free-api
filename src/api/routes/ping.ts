@@ -1,5 +1,5 @@
 export default {
-  prefix: 'api/ping',
+  prefix: '/ping',
   get: {
     '': async () => "pong"
   }
